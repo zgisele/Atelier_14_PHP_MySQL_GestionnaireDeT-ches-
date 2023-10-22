@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Connexion</title>
+</head>
+<body>
+   
+       <div class="bloc1">
+            <h2> Création de compte et connexion</h2>
+            <div >
+                
+                <div class="duplet">
+                    <form action="CreerCompte.php" method="Post" class="creation_compte">
+                        <h3>Crée un compte</h3>
+
+                        <label for="">Nom d'utilisateur:</label>
+                        <input type="text" name="nom" >
+
+                        <label for=""> Adresse email</label>
+                        <input type="email" name="email">
+
+                        <label for=""> Mot de passe:</label>
+                        <input type="password" name="motDePasse">
+
+                        <label for="">Confirmation:</label>
+                        <input type="password" name="Confirmation">
+
+                        <input type="submit" name="inscription" value="Créer un compte" class="bouton1">
+                    </form>
+
+            
+                    <div class="separateur"><div class="separateur2" ></div></div>
+                
+                    
+                    <form action="Connexion.php"  method="post" class="connexion">
+                        <h3>Connexion</h3>
+                        <label for="">Nom d'utilisateur:</label>
+                        <input type="text" name="nom2">
+
+                        <label for=""> Mot de passe:</label>
+                        <input type="password" name="motDePasse2">
+
+                        <input type="submit" value="Se connecter" name="connexion" class="bouton2">
+
+                        <input type="submit" value=" Réinitialisation"  class="bouton4">
+
+
+
+                    </form>
+
+
+                </div>
+
+            </div>
+        </div>
+</body>
+</html>

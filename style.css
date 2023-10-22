@@ -1,0 +1,218 @@
+
+body{
+    background-color: whitesmoke;
+}
+.bloc1 h2{
+
+    background-color: rgb(76, 175, 80);
+    color: white;
+    text-align: center;
+    height: 40px;
+    padding-top: 10px;
+}
+.duplet
+{
+    border: 1px solid black;
+    display: flex;
+    flex-direction:row;
+    background-color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-bottom: 20px;
+    border: none;
+    
+}
+
+.creation_compte
+{
+    display: flex;
+    flex-direction:column;
+    margin-left: 10%;
+}
+.creation_compte label{
+margin-bottom:-12px ;
+margin-top: 10px;
+
+
+}
+.creation_compte input
+{
+
+width:300px;
+height:40px;
+margin-top:20px ;
+border: 1px solid rgba(225, 223, 223, 0.596);
+
+
+}
+.creation_compte .bouton1
+{
+  width:120px ;
+  background-color:rgb(76, 175, 80);
+  color: white;
+  border-radius: 5px;
+  font-weight:600;
+}
+.connexion{
+
+    display: flex;
+    flex-direction:column;
+    margin-left: 8%;
+
+}
+.connexion input{
+width:300px;
+height:40px;
+margin-top:20px ;
+border: 1px solid rgba(225, 223, 223, 0.596);
+
+}
+.connexion label{
+    margin-bottom:-14px ;
+    margin-top: 10px;
+   
+}
+.connexion .bouton2
+{
+  width:120px ;
+  background-color:rgb(76, 175, 80);
+  color: white;
+  border-radius: 5px;
+  font-weight:600;
+}
+.connexion .bouton4{
+    border: none;
+    font-weight: 600;
+    background-color: white;
+    text-align: right;
+    width: 110px;
+    margin-left: 200px;
+    margin-top: -40px;
+}
+.separateur2{
+    height:450px;
+    width: 3px;
+    
+}
+.separateur{
+    
+    background-color: rgb(76, 175, 80);
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+/* -----------------------------GestionDesTaches---------------------------------------- */
+.bloc2  .entete{
+
+    background-color: rgb(76, 175, 80);
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    border-top: 5px solid black;
+}
+/* .bloc2 form {
+
+    
+    margin-left: 300px;
+    margin-right: 300px;
+
+
+} */
+.bloc2 .form-ajout{
+    margin-left: 300px;
+    margin-right: 300px;
+   
+
+}
+.formulaire3 select{
+    height: 40px;
+    width: 100%;
+}
+.formulaire3 input{
+    height: 30px;
+    width: 100%;
+}
+.formulaire3 textarea{
+    height: 130px;
+    width: 100%;
+}
+.formulaire3 .bouton3{
+    width:120px ;
+  background-color:rgb(76, 175, 80);
+  color: white;
+  border-radius: 5px;
+  font-weight:600;
+  border: none;
+}
+
+.bloc2  .gestion{
+
+    background-color: white;
+    height:200px ;
+    margin-bottom: 80px;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding-bottom:-20px;
+    padding-left: 20px;
+    /* border: 2px solid black; */
+
+}
+
+/* .gestion p{
+    /* color : red; */
+/* } */
+.gestion .ges_tache{
+display:flex;
+margin-right:80px;
+margin-block: 50px;
+border-spacing: 50px;
+color: blue;
+/* border: 2px solid blue; */
+
+}
+.ges_tache .P1{
+    color: red;
+
+}
+.ges_tache .P2{
+    color: blue;
+    margin-left: 30px;
+
+}
+.ges_tache input{
+    border: none;
+    color:white;
+    margin-left: 30px;
+    background-color:rgb(76, 175, 80);
+    border-radius: 5px;
+    height: 40px;
+    margin-top: 5px;
+    font-weight: 600;
+
+}
+
+/* ------------------------------detail des tahes------------------------------------------ */
+.bloc3 .entete{
+
+    background-color: rgb(76, 175, 80);
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.bloc3 .lien1{
+
+    margin-left: 40%;
+}
+
+.bloc3 .voir {
+
+background-color: white;
+margin-left: 300px;
+margin-right: 300px;
+height:200px ;
+margin-bottom: 20px;
+
+}
+
+    
